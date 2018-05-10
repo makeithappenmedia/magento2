@@ -1,0 +1,10 @@
+//
+//  Shopping cart
+//  ---------------------------------------------
+
+//  Products table
+@media only screen and (min-width: 600px) {
+  #shopping-cart-table > tbody > tr.item-info > td.col.product-item {
+    width: 34%;
+  }
+}

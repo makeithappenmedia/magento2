@@ -1,0 +1,318 @@
+/*
+Imports
+---------------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Icon';
+    src:url('https://nardamiteq.com/fonts/Icon.eot');
+    src:url('https://nardamiteq.com/fonts/Icon.eot?#iefix') format('embedded-opentype'),
+    url('https://nardamiteq.com/fonts/Icon.woff') format('woff'),
+    url('https://nardamiteq.com/fonts/Icon.ttf') format('truetype'),
+    url('https://nardamiteq.com/fonts/Icon.svg#Icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+
+/* Baseline Normalize
+	normalize.css v2.1.3 | MIT License | git.io/normalize
+--------------------------------------------- */
+
+/*nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}*/
+
+
+/* Float Clearing
+--------------------------------------------- */
+
+.narda-mage .nav-primary:before,
+.narda-mage .nav-secondary:before,
+.narda-mage .wrap:before {
+    content: " ";
+    display: table;
+}
+
+.narda-mage .nav-primary:after,
+.narda-mage .nav-secondary:after,
+.narda-mage .wrap:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/* Typographical Elements
+--------------------------------------------- */
+.narda-mage ol,
+.narda-mage ul {
+    margin: 0;
+    padding: 0;
+}
+
+.narda-mage li {
+    list-style-type: none;
+}
+
+/* Site Containers
+--------------------------------------------- */
+
+.narda-mage .wrap {
+    background: transparent linear-gradient(to bottom, #40406A 0%, #161640 100%) repeat scroll 0% 0%;
+    border-radius: 8px;
+    color: #FFF;
+    display: block;
+    margin: 0 auto;
+    padding: 0px 25px;
+    text-decoration: none;
+    width: 1002px;
+}
+
+/* Main
+--------------------------------------------- */
+
+.narda-mage .alignleft {
+    float: left;
+    text-align: left;
+}
+
+.narda-mage .alignright {
+    float: right;
+    text-align: right;
+}
+
+.narda-mage a.alignleft,
+.narda-mage a.alignnone,
+.narda-mage a.alignright {
+    max-width: 100%;
+}
+
+.narda-mage a.alignnone {
+    display: inline-block;
+}
+
+.narda-mage a.aligncenter img {
+    display: block;
+    margin: 0 auto;
+}
+
+.narda-mage img.centered,
+.narda-mage .aligncenter {
+    display: block;
+    margin: 0 auto 24px;
+}
+
+.narda-mage img.alignnone,
+.narda-mage .alignnone {
+    margin-bottom: 12px;
+}
+
+.narda-mage a.alignleft,
+.narda-mage img.alignleft,
+.narda-mage .wp-caption.alignleft {
+    margin: 0 24px 12px 0;
+}
+
+.narda-mage a.alignright,
+.narda-mage img.alignright,
+.narda-mage .wp-caption.alignright {
+    margin: 0 0 12px 24px;
+}
+
+.narda-mage .wp-caption-text {
+    font-weight: 700;
+    text-align: center;
+}
+
+.narda-mage .entry-content p.wp-caption-text {
+    margin-bottom: 0;
+}
+
+.narda-mage .gallery-caption {
+    margin: 0 0 10px;
+}
+
+/*
+Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+.narda-mage .nm-nav-menu {
+    clear: both;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+
+.narda-mage .nm-nav-menu a {
+    color: #40406A;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.narda-mage .nm-nav-menu .menu-item {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.narda-mage .nm-nav-menu a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.narda-mage .nm-nav-menu a:hover,
+.narda-mage .nm-nav-menu .current-menu-item > a,
+.narda-mage .nm-nav-menu .sub-menu a:hover,
+.narda-mage .nm-nav-menu .sub-menu .current-menu-item > a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.narda-mage .nm-nav-menu .sub-menu {
+    border-top: 1px solid #ececec;
+    left: -9999px;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition:    opacity .4s ease-in-out;
+    -ms-transition:     opacity .4s ease-in-out;
+    -o-transition:      opacity .4s ease-in-out;
+    transition:         opacity .4s ease-in-out;
+    width: 274px;
+    z-index: 99;
+}
+
+.narda-mage .nm-nav-menu .sub-menu a {
+    background-color: #f8f8f8;
+    border: 1px solid #ececec;
+    border-top: none;
+    color: #40406A;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: relative;
+    width: 250px;
+}
+
+.narda-mage .nm-nav-menu .sub-menu .sub-menu {
+    margin: -28px 0 0 271px;
+}
+
+.narda-mage .nm-nav-menu .menu-item:hover {
+    position: static;
+}
+
+.narda-mage .nm-nav-menu .menu-item:hover > .sub-menu {
+    left: auto;
+    opacity: 1;
+}
+
+.narda-mage .nm-nav-menu > .first > a {
+    padding-left: 0;
+}
+
+.narda-mage .nm-nav-menu > .last > a {
+    padding-right: 0;
+}
+
+.narda-mage .nm-nav-menu > .right {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+}
+
+.narda-mage .nm-nav-menu > .date,
+.narda-mage .nm-nav-menu > .right > a {
+    display: inline-block;
+    padding: 20px 24px;
+}
+
+.narda-mage .nm-nav-menu > .search {
+    padding: 8px 0 0;
+}
+
+.narda-mage .nm-nav-menu > .search input {
+    font-size: 12px;
+    padding: 12px 20px;
+}
+
+/* Site Header Navigation
+--------------------------------------------- */
+
+.narda-mage .site-header .widget_nav_menu {
+    color: #40406A;
+}
+
+.narda-mage .site-header .nm-nav-menu li li {
+    margin-left: 0;
+}
+
+/* Primary Navigation
+--------------------------------------------- */
+
+.narda-mage .nav-primary {
+    background-color: inherit;
+    margin:0 auto;
+    width:1088px;
+}
+
+.narda-mage .nav-primary,
+.narda-mage .nav-primary a {
+    color: #fff;
+}
+
+.narda-mage .narda-mage .nav-primary .sub-menu {
+    border-color: #222;
+}
+
+.narda-mage .nav-primary .sub-menu a {
+    background-color: #40406A;
+    border-color: #222;
+    color: #fff;
+}
+
+/* Secondary Navigation
+--------------------------------------------- */
+
+.narda-mage .nav-secondary {
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.narda-mage .nav-secondary .nm-nav-menu a {
+    padding: 6px 20px;
+}
+
+.narda-mage .site-footer .nav-secondary .nm-nav-menu a {
+    color: #aaa;
+}
+
+.narda-mage .nav-secondary .nm-nav-menu a:hover {
+    color: #fff;
+}
+
+/* Responsive Menu
+--------------------------------------------- */
+
+.narda-mage .responsive-menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.narda-mage .responsive-menu-icon::before {
+    content: "\f333";
+    display: block;
+    font: normal 20px/1 'dashicons';
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.narda-mage .site-header .responsive-menu-icon::before {
+    padding: 0;
+}

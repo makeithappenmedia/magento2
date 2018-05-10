@@ -1,0 +1,1053 @@
+@charset "utf-8";
+body {
+    background-color: #d9d9d9 !important;
+}
+/*h1 {*/
+    /*background: rgba(0, 0, 0, 0) url("/images/slideshow-arrow.png") no-repeat scroll 0 10px;*/
+    /*padding-left: 14px;*/
+/*}*/
+/*td img {*/
+    /*display: block;*/
+/*}*/
+/*a {*/
+    /*color: #222222;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-size: 12px;*/
+/*}*/
+.narda-mage #TranslateOuter {
+    float: right;
+    padding-right: 100px;
+    margin-top: -50px;
+}
+.narda-mage #Translate {
+    color:#161640;
+    float:left;
+    margin: 0px;
+}
+.narda-mage #google_translate_element {
+    height:20px;
+}
+.narda-mage .goog-te-gadget-icon {
+    display:none;
+}
+.narda-mage .goog-te-gadget-simple{
+    font-size:12px;
+    padding: 0px 2px;
+}
+.narda-mage .breadcrumbs {
+    overflow:hidden;
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom:1px solid #ededed;
+    padding-bottom:5px;
+    margin-bottom:10px;
+}
+.narda-mage .breadcrumbs li {
+    float: left;
+    margin: 0 5px 0 0px;
+    list-style: none;
+    padding-right:15px;
+    background:url(https://nardamiteq.com/images/sepp.jpg) no-repeat 100% 2px;
+}
+.narda-mage .blast {
+    padding-right:15px;
+    cursor:none;
+    background:none !important;
+}
+.narda-mage .breadcrumbs a {
+    float: left;
+    text-decoration: none;
+    color: #666666;
+    position: relative;
+    font-size: 10px;
+    font-family: arial;
+}
+.narda-mage .breadcrumbs a:hover {
+    color: #000000;
+    text-decoration:underline;
+}
+.narda-mage .breadcrumbs .blast a {
+    color: #969696;
+    cursor:none;
+}
+.narda-mage .breadcrumbs .blast a:hover{
+    text-decoration:none !important;
+}
+.narda-mage .page_sub_title {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.narda-mage .division_name {
+    color: #ED2024;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+.narda-mage .home_page_section_title {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.narda-mage .copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666666;
+    background-color: inherit !important;
+    text-align: left !important;
+    padding: 0px !important;
+    line-height: initial;
+}
+.narda-mage .home_page_section_sub_title {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.narda-mage .home_page_section_sub_section {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.narda-mage .page_text {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.narda-mage .top_nav_page_block {
+    float:right;
+    margin:10px 0;
+    padding:0 20px 0 60px;
+}
+.narda-mage .top_nav_page_text {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.narda-mage .top_nav_page_text a {
+    padding: 0 10px;
+    text-decoration: underline;
+}
+.narda-mage .navitems {
+    background: #40406a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #40406a 0%, #140140 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#40406a), color-stop(100%,#AB2535)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #40406a 0%,#140140 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #40406a 0%,#140140 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #40406a 0%,#140140 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #40406a 0%,#140140 100%); /* W3C */
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 0 #000000 inset;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000000;
+}
+.narda-mage .navitems a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000000;
+}
+.narda-mage .navitems a:hover {
+    color: #ED2024;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #777777;
+}
+.narda-mage .page_title {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.narda-mage .tag_line {
+    color: #999;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.narda-mage img#banner {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+.narda-mage img#border {
+    border: 1px solid #cccccc;
+}
+.narda-mage ul li {
+    list-style: url(https://nardamiteq.com/img/redesign/arrow_bullet.png)
+}
+/* SLIDER RELATED */
+.narda-mage #container {
+    margin:0 auto;
+    padding:10px 0 0;
+    position:relative;
+    width:980px;
+    z-index:0;
+}
+.narda-mage #example {
+    height:360px;
+    position:relative;
+    width:980px;
+}
+.narda-mage #frame {
+    height:360px;
+    left:-80px;
+    position:absolute;
+    top:-3px;
+    width:980px;
+    z-index:0;
+}
+.narda-mage .navbar {
+    overflow:hidden;
+}
+.narda-mage #slides {
+    left:4px;
+    position:absolute;
+    top:15px;
+    z-index:100;
+}
+.narda-mage .slides_container {
+    display:none;
+    overflow:hidden;
+    position:relative;
+    width:980px;
+}
+.narda-mage .slides_container div.slide {
+    display:block;
+    height:360px;
+    width:980px;
+}
+.narda-mage #slides .next,#slides .prev {
+    display:block;
+    height:43px;
+    left:-24px;
+    position:absolute;
+    top:107px;
+    width:24px;
+    z-index:101;
+}
+.narda-mage #slides .next {
+    left:980px;
+}
+.narda-mage #slides .pagination {
+    float: right;
+    list-style: none;
+    margin: 1px 0 0;
+    z-index:500;
+}
+.narda-mage #slides .pagination li {
+    float: left;
+    margin: 0 1px;
+    z-index:500;
+}
+.narda-mage #slides .pagination li a {
+    background-image: url(https://nardamiteq.com/img/pagination.png);
+    background-position: 0 0;
+    display: block;
+    float: left;
+    height: 0;
+    overflow:hidden;
+    padding-top: 13px;
+    width: 13px;
+    z-index:500;
+}
+.narda-mage #slides .pagination li a.active,
+.narda-mage #slides .pagination li a:hover.active {
+    background-position: 0 -13px;
+    z-index:500;
+}
+.narda-mage #slides .pagination li a:hover {
+    background-position: 0 -26px;
+    z-index:500;
+}
+.narda-mage #slides .pagination ul {
+    list-style:none;
+}
+.narda-mage #slides .pagination li {
+    list-style:none;
+}
+.narda-mage .caption {
+    background:#000;
+    background:rgba(0,0,0,0.6);
+    border-top:1px solid #000;
+    bottom:-35px;
+    color:#fff;
+    font-size:18px;
+    height:30px;
+    left:0;
+    line-height:1.33;
+    padding:5px 20px 0 20px;
+    position:absolute;
+    text-shadow:none;
+    text-transform:uppercase;
+    width:980px;
+    z-index:400;
+}
+.narda-mage .captionb {
+    bottom:0;
+}
+/* end of slides */
+.narda-mage .left_bar {
+    float: left;
+    padding: 0 0 0 20px;
+    width: 23%;
+    /* width: 24%;	*/
+}
+.narda-mage .right_bar_2_col {
+    /* border-left: 1px solid #ccc; */
+    float: right;
+    padding: 0 1%;
+    width: 70%;
+}
+.narda-mage .right_bar_2_col ul {
+    list-style: outside url(https://nardamiteq.com/img/redesign/arrow_bullet.png) disc;
+    padding: 0 0 0 20px;
+}
+.narda-mage .right_bar_2_col h2 {
+    border-left: 4px solid #003bc7;
+    color: #222222;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 15px;
+    padding: 4px 0 4px 20px;
+}
+.narda-mage .right_bar {
+    /* border-left: 1px solid #ccc; */
+    float: right;
+    padding: 0 0 0 1%;
+    width: 74%;
+    /* width: 73%; */
+}
+.narda-mage .right_bar .left_part {
+    float: left;
+    width: 65%;
+}
+.narda-mage .right_bar .right_part {
+    float: right;
+    width: 35%;
+    /* width: 33%; */
+}
+.narda-mage .clr::after,
+.narda-mage .clr::before {
+    content: " ";
+    display: table;
+}
+.narda-mage .clr::after {
+    clear: both;
+}
+.narda-mage .clr::after,
+.narda-mage .clr::before {
+    content: " ";
+    display: table;
+}
+.narda-mage .clr {
+    clear: both;
+}
+.narda-mage .moduletable .custom h2.h {
+    background: rgba(0, 0, 0, 0) url("https://nardamiteq.com/images/slideshow-arrow.png") no-repeat scroll 0 10px;
+    padding-left: 14px;
+}
+.narda-mage .moduletable .custom h3.h {
+    background: rgba(0, 0, 0, 0) url("https://nardamiteq.com/images/slideshow-arrow.png") no-repeat scroll 0 10px;
+    padding-left: 14px;
+}
+.narda-mage .intlreps_inner {
+    background: #eee;
+}
+.narda-mage .product_box h3.h {
+    background: rgba(0, 0, 0, 0) url("https://nardamiteq.com/images/slideshow-arrow.png") no-repeat scroll 0 5px;
+    color: #222222 !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+.narda-mage .product_box h3 {
+    color: #222222;
+    font: 16px/34px Arial,sans-serif;
+}
+.narda-mage .product_events {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 76%, rgba(233, 240, 249, 1) 99%) repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 0 0 20px;
+    min-height: 100px;
+    padding: 3%;
+    width: 90%;
+}
+.narda-mage *::-moz-selection {
+    background: #187ccd none repeat scroll 0 0;
+    color: #fff;
+}
+.narda-mage .left_inner h2.slugtitle, .left_bar h2.slugtitle, .slugtitle {
+    background: transparent url("https://nardamiteq.com/images/slideshow-arrow.png") no-repeat scroll 0px 10px;
+    border: 0px none;
+    color: #222;
+    /* font: bold 13px/1.3em Arial,sans-serif; */
+    font: bold 10px/1.3em Arial,sans-serif;
+    margin-bottom: 0px;
+    padding: 8px 5%;
+    text-transform: uppercase;
+    width: 96%;
+}
+.narda-mage .left_inner .product_box, .left_bar .product_box {
+    border: 0px none;
+    border-radius: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.narda-mage .left_bar h2 {
+    background: transparent url("https://nardamiteq.com/images/slideshow-arrow.png") no-repeat scroll 0px 13px;
+    border-bottom: 2px solid #CCC;
+    color: #000;
+    font: 18px/40px Arial,sans-serif;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 15px;
+    width: 95%;
+}
+.narda-mage .cssrow .row_1 {
+    margin-bottom: 0;
+    width: 100%;
+}
+.narda-mage .row_1 {
+    background-color: #fff;
+    float: left;
+    height: auto;
+    padding: 20px 0;
+    position: relative;
+}
+.narda-mage .product_box {
+    background: transparent linear-gradient(to bottom, #FFF 0%, #FFF 76%, #E9F0F9 99%) repeat scroll 0% 0%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 0px 0px 20px;
+    min-height: 100px;
+    padding: 3%;
+    width: 90%;
+}
+.narda-mage .intlreps_box {
+    background: transparent linear-gradient(to bottom, #eee 0%, #eee 76%, #e9f0f9 99%) repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 0px 0px 20px;
+    min-height: 100px;
+    padding: 3%;
+    width: 90%;
+}
+.narda-mage .image img{
+    overflow:hidden;
+    width: 90%;
+}
+.narda-mage ul.ncomp {
+    /* background: #F7F9FD none repeat scroll 0% 0%; */
+    color: #222;
+    list-style-type: none;
+    margin: 0px;
+}
+.narda-mage .product_box ul {
+    list-style-type: square;
+    margin: 10px 0px 10px 30px;
+    padding: 0px;
+}
+.narda-mage ul.ownlist {
+    list-style: outside none none !important;
+}
+.narda-mage ul.ncomp li {
+    /* background: #DEDFE7 none repeat scroll 0% 0%; */
+    /* border-bottom: 1px solid #F0F4FA; */
+    /* border-top: medium none; */
+    font-family: Arial;
+    font-weight: bold;
+    /* margin-bottom: 1px; */
+    padding: 8px 0px 8px 10px;
+}
+.narda-mage .product_box p {
+    color: #222;
+    font: 12px/1.6em Arial,sans-serif;
+}
+.narda-mage .full_width_col {
+    margin: 0 auto;
+    width: 97%
+}
+.narda-mage .InStock{
+    font-weight:bold;
+}
+.narda-mage .tdnowrapstock{
+    background-color:#ffff19;
+    white-space:nowrap;
+}
+.narda-mage .tdcenter{
+    text-align:center;
+}
+
+.narda-mage * p:last-child {
+    margin-bottom: 0px;
+}
+
+.narda-mage ul + .narda-mage p {
+    margin-top: 20px;
+}
+
+.narda-mage p {
+    margin: 0px 0px 10px;
+}
+.narda-mage .nmmain {
+    background:#ffffff;
+    margin:0 auto;
+    width:1088px;
+}
+.narda-mage .nml3nardamiteqheader{
+    float:left;
+    margin:0 0 25px 0;
+    padding:0 0 0 20px;
+    width:604px;
+}
+.narda-mage .nml3logo{
+    float:left;
+}
+.narda-mage .nmdivision{
+    padding:18px 0 0 70px;
+}
+.narda-mage .nmtopnav {
+    display:block;
+    float:right;
+    margin:10px 0;
+    padding:0 20px 0 0;
+}
+.narda-mage .mainimg {
+    float: right;
+    padding: 0 5px;
+}
+.narda-mage .leftbarimgs{
+    display: block;
+    margin: 0 auto;
+}
+.narda-mage .vm2 {
+    display: block;
+    margin: -15px 0 0 0;
+}
+.narda-mage .uecontainer{
+    float:left;
+}
+.narda-mage .uetitle{
+    padding:10px 0 0 10px;
+}
+.narda-mage .uetitle a{
+    font-size:14px;
+    font-weight:bold;
+}
+.narda-mage .uebody{
+    padding:0 0 0 10px;
+}
+.narda-mage .morenews{
+    float:right;
+    margin:-30px 20px 0 0;
+}
+.narda-mage .moreue{
+    float:right;
+    margin:0 20px 0 0;
+}
+.narda-mage .homenews{
+    font:bold 10px 'Cabin', sans-serif;
+}
+.narda-mage #homenewscal{
+    padding:25px 0 5px 0;
+    width:500px;
+}
+.narda-mage .homenewscal{
+    padding:25px 0 5px 0;
+    width:500px;
+}
+.narda-mage .homenewsimg{
+    background-color:inherit;
+    display:block;
+    float:left;
+    width:250px;
+}
+.narda-mage .homenewsimg a{
+    background-color:inherit;
+}
+.narda-mage #homenewsimg a img{
+    background-color:inherit;
+    border:0;
+}
+.narda-mage .homenewstxt{
+    background-color:inherit;
+    display:block;
+    float:left;
+    line-height:1.3;
+    width:400px;
+}
+.narda-mage .homenewsspace{
+    background-color:inherit;
+    display:block;
+    float:left;
+    padding:5px;
+}
+.narda-mage .newseven,
+.narda-mage .newsodd{
+    background-color:#fff;
+    border:2px dotted #ddd;
+}
+.narda-mage .newsodd,
+.narda-mage .newseven{
+    display:block;
+    float:left;
+    margin:5px;
+    padding:5px;
+    width:96%;
+}
+.narda-mage .bnews{
+    background-color:inherit;
+    font-weight:bold;
+}
+.narda-mage .bcccc {
+    background-color:#ccc;
+}
+.narda-mage .bcddd {
+    background-color:#ddd;
+}
+.narda-mage #homecal{
+    float:left;
+    width:100%;
+}
+.narda-mage #homecaltitle{
+    background-color:#c30c3E;
+    color:#fff;
+    font-weight:bold;
+    margin-bottom:5px;
+    text-align:center;
+}
+.narda-mage #homecalmain{
+    background-color:#e1e1e1;
+    font-size:10px;
+    margin-bottom: 110px;
+}
+.narda-mage .InStockListItems{
+    font-size:18px;
+}
+.narda-mage .instock,
+.narda-mage .instockpage{
+    background-color:#fff;
+    float:left;
+    font-size:16px;
+    font-weight:bold;
+    width:100%;
+}
+.narda-mage .instockpage{
+    padding:20px 0;
+}
+.narda-mage .instock a,
+.narda-mage .instockpage a{
+    padding-left:40px;
+}
+.narda-mage .featprodbox {
+    margin-bottom: 0px !important;
+}
+.narda-mage .newprodnotifyheader{
+    background-color: #cdcdcd;
+    color:#000;
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:2px;
+    padding-top:5px;
+    text-align:center;
+    width:100%;
+}
+.narda-mage .newprodheader{
+    background:transparent linear-gradient(to bottom, #40406a 0%, #140140 100%) repeat scroll 0 0;
+    border-radius: 8px;
+    color:#fff;
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:2px;
+    text-align:center;
+    width:99%;
+}
+.narda-mage .newprodheader a{
+    background:transparent repeat scroll 0 0;
+    color:#fff;
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    padding:4px 0;
+    text-align:center;
+    text-decoration:none;
+    width:100%;
+}
+.narda-mage .newprodheader a:hover{
+    background-color:#fff;
+    border:1px solid #40406a;
+    border-radius: 8px;
+    color:#40406a;
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    margin:-1px;
+    text-align:center;
+    text-decoration:none;
+    width:100%;
+}
+.narda-mage .newproducts{
+    background-color:#fff;
+    width:100%;
+}
+.narda-mage .newproduct{
+    background-color:#eee;
+    border:#fff 1px solid;
+    overflow:hidden;
+}
+.narda-mage .newprodtext a{
+    font-size:15px;
+    font-weight:800;
+}
+.narda-mage .newprodtext{
+    margin:5px 110px 0 5px;
+}
+.narda-mage #newprodjump{
+    margin-bottom:10px;
+}
+.narda-mage #ShowAllNewProducts{
+    background-color:#eee;
+    font-weight:bold;
+    margin-bottom:10px;
+    text-align:center;
+}
+.narda-mage .fsf_mod_faqs_cont {
+    border-bottom: 1px solid #e0e0e0;
+    clear: both;
+    padding: 8px 3px;
+}
+.narda-mage .fsf_mod_faqs_scroll {
+    margin-top: -25px;
+}
+.narda-mage .nmfooter {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1088px;
+}
+.narda-mage .product-table {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: collapse;
+    border-color: #eee #eee #0087ea;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    font-family: "Arial";
+    margin: 25px auto;
+    width: 100%;
+}
+.narda-mage .product-table th {
+    background: #f1f1f1 none repeat scroll 0 0;
+    color: #666666;
+    font-size: 12px;
+}
+.narda-mage .product-table th,
+.narda-mage .product-table td {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    color: #999;
+    padding: 8px 10px;
+}
+.narda-mage #miteqsearchbar {
+    float:right;
+    padding:10px 25px 0 0;
+}
+.narda-mage #miteqsearchblock {
+    float:right;
+    font-size:15px;
+}
+.narda-mage #miteqsearchblock label {
+    font-family: sans-serif;
+}
+.narda-mage #miteqsearchblock input {
+    width: auto;
+    padding: 2px;
+    height: auto;
+    font: 400 14px system-ui;
+}
+.narda-mage #miteqsearchblock input#words {
+    width: 180px;
+}
+.narda-mage #miteqsearchblock input#search {
+    padding: 2px 8px;
+}
+
+.narda-mage .emailbtn {
+    background: #D83648;
+    background-image: -webkit-linear-gradient(top, #D83648, #AB2535);
+    background-image: -moz-linear-gradient(top, #D83648, #AB2535);
+    background-image: -ms-linear-gradient(top, #D83648, #AB2535);
+    background-image: -o-linear-gradient(top, #D83648, #AB2535);
+    background-image: linear-gradient(to bottom, #D83648, #AB2535);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #111111;
+    color: #ffffff;
+    font-size: 17px;
+    max-width: 200px;
+    padding: 5px 15px;
+    text-decoration: none;
+    word-wrap: word;
+}
+.narda-mage .emailbtn:hover {
+    background: #AB2535;
+    background-image: -webkit-linear-gradient(top, #AB2535, #D83648);
+    background-image: -moz-linear-gradient(top, #AB2535, #D83648);
+    background-image: -ms-linear-gradient(top, #AB2535, #D83648);
+    background-image: -o-linear-gradient(top, #AB2535, #D83648);
+    background-image: linear-gradient(to bottom, #AB2535, #D83648);
+    text-decoration: none;
+}
+.narda-mage .emailupdates {
+    font-weight:bold;
+    font-size:11px;
+    text-align:center;
+}
+.narda-mage .imgnb {
+    border:0;
+}
+.narda-mage .b0w100 {
+    border:0;
+    width:100%;
+}
+.narda-mage .b1s {
+    border:1px solid #000000;
+}
+.narda-mage .b1sc {
+    border:1px solid #000000;
+    text-align:center;
+}
+.narda-mage .socialiconsnm {
+    border:0;
+    float:right;
+    padding:0px;
+    width:50px;
+}
+.narda-mage .fplinks {
+    font-size:15px;
+    color:#0087ea;
+}
+.narda-mage .doubleslashbreadcrumb {
+    color:#888;
+    float:left;
+    font-size:14px;
+    position:relative;
+}
+.narda-mage .h1keywordl2 {
+    color:#ffffff;
+    font-size:16px;
+    margin:10px 0 0 0;
+}
+.narda-mage .mapcanvaswh {
+    height:400px;
+    width:100%;
+}
+.narda-mage .belowmapfont {
+    font-size:24px;
+}
+.narda-mage .lay3sep {
+    padding:2px 10px;
+}
+.narda-mage .pad1 {
+    padding:1px;
+}
+.narda-mage .pad2 {
+    padding:2px;
+}
+.narda-mage .pad5 {
+    padding:5px;
+}
+.narda-mage .pad10 {
+    padding:10px;
+}
+.narda-mage .pad15 {
+    padding:15px;
+}
+.narda-mage .pl25 {
+    padding-left:25px;
+}
+.narda-mage .tac {
+    text-align:center;
+}
+.narda-mage .tar {
+    text-align:right;
+}
+.narda-mage .vab {
+    vertical-align:bottom;
+}
+.narda-mage .vat {
+    vertical-align:top;
+}
+.narda-mage .formw {
+    width:400px;
+}
+.narda-mage .ail {
+    align-items:left;
+}
+.narda-mage .w5 {
+    width:5px;
+}
+.narda-mage .w10 {
+    width:10px;
+}
+.narda-mage .w30 {
+    width:30px;
+}
+.narda-mage .w50 {
+    width:50px;
+}
+.narda-mage .w75 {
+    width:75px;
+}
+.narda-mage .w125 {
+    width:125px;
+}
+.narda-mage .w200 {
+    width:200px;
+}
+.narda-mage .w250 {
+    width:250px;
+}
+.narda-mage .w275 {
+    width:275px;
+}
+.narda-mage .w300 {
+    width:300px;
+}
+.narda-mage .w350 {
+    width:350px;
+}
+.narda-mage .w500 {
+    width:500px;
+}
+.narda-mage .w650 {
+    width:650px;
+}
+.narda-mage .w800 {
+    width:800px;
+}
+.narda-mage .w1000 {
+    width:1000px;
+}
+.narda-mage .w1088 {
+    width:1088px;
+}
+.narda-mage .w50p {
+    width:50%;
+}
+.narda-mage .w100p {
+    width:100%;
+}
+.narda-mage .opt15 {
+    border:1px solid #000000;width:15%;
+}
+.narda-mage .opt35 {
+    border:1px solid #000000;width:35%;
+}
+.narda-mage .opt50 {
+    border:1px solid #000000;width:50%;
+}
+.narda-mage .availopts {
+    padding:2px;
+    width:96%;
+}
+.narda-mage .viewmoddoc {
+    font-size:12px;
+    font-weight:bold;
+}
+.narda-mage .showitemtop {
+    vertical-align:top;
+    width:406px;
+}
+.narda-mage .showitemdocs {
+    padding-top:30px;
+    vertical-align:top;
+}
+.narda-mage .simmodels {
+    float:right;
+    padding-top:0px;
+    vertical-align:top;
+}
+.narda-mage .tdnowrap2 {
+    vertical-align:top;
+    white-space:nowrap;
+}
+.narda-mage .replistcomp {
+    color:#0000ff;
+}
+.narda-mage .replistsize {
+    font-size:13px;
+}
+.narda-mage .replistoffice {
+    color:#ff0000;
+    text-decoration:underline;
+}
+.narda-mage .contactustop {
+    padding:5px;
+    width:95%;
+}
+.narda-mage .contactusreplist {
+    color:blue;
+    font-size:16px;
+    font-weight:bold;
+}
+.narda-mage .contactuscform {
+    color:blue;
+    font-size:20px;
+    font-weight:bold;
+}
+.narda-mage .contactformcountry {
+    vertical-align:middle;
+    text-align:left;
+}
+.narda-mage .fs16 {
+    font-size:16px;
+}
+.narda-mage .intlrepsbox {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 76%, rgb(233, 240, 249) 99%) repeat scroll 0 0;
+}
+.narda-mage .nocatalog {
+    color:#f00;
+    font-size:20px;
+    font-weight:bold;
+}
+.narda-mage .resultstable {
+    background-color:#ffffff;
+    border:1px solid #000000;
+}
+.narda-mage .floatl {
+    float:left;
+}
+.narda-mage .floatr {
+    float:right;
+}
+.narda-mage .clearboth {
+    clear:both;
+}
+
+.narda-mage.page-footer {
+    background: inherit;
+}

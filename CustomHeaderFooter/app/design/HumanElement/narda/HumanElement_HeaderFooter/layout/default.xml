@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+        <referenceContainer name="page.wrapper">
+
+            <referenceContainer name="copyright" remove="true" />
+
+            <referenceContainer name="header.container.narda">
+                <block class="Magento\Framework\View\Element\Template" name="header.narda" template="HumanElement_HeaderFooter::html/header.phtml" />
+            </referenceContainer>
+
+            <referenceContainer name="footer-container.narda">
+                <block class="Magento\Framework\View\Element\Template" name="footer.narda" template="HumanElement_HeaderFooter::html/footer.phtml" />
+            </referenceContainer>
+
+        </referenceContainer>
+    </body>
+</page>
